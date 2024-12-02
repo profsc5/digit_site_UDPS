@@ -1,0 +1,51 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    margin: 0;
+    overflow: hidden;
+    background-color:lightgreen;
+}
+
+div#kontaktWrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#kontakt{
+    padding: 50px;
+    font-size: 20px;
+}
+div#kontakt >h1{
+    float:left;
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+
+div#socMediaWrapper> div#socMedia>img{
+    max-width: 150px;
+    
+}
+
+div#socMediaWrapper{
+    display:grid;
+}
+
+
+table{
+    border:1px solid black;
+    max-width: fit-content;
+    background-color: lightcoral;
+}
+th{
+    border-right:0.5px solid black;
+    margin:0;
+    padding: 10px;
+}
+td{ 
+    border-top: 0.5px solid black;
+    text-align: center;
+}

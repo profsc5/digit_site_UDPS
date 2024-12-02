@@ -1,0 +1,123 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+body#aboutBody{
+    display:grid;
+    margin: 0;
+    overflow: hidden;
+    background-color:lightcoral;
+}
+
+header#uvodniHeader{
+    height: 100vh;
+    width: 100vw;
+    align-content: space-between;
+    justify-items: center;
+    margin:0;
+    display:grid;
+    background-color: lightcoral;
+}
+h1.hlavniNadpis{
+    text-decoration: underline;
+    font-size: 150px;
+    padding-top:150px;
+    text-align: center;
+}
+h2.titulek{
+    font-size: 50px;
+    text-align: center;
+}
+img#downArrow{
+    height: 50px;
+    width: auto;
+    padding-bottom: 100px;
+
+}
+
+section#uvod{
+  
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+
+    background-color: lightgreen;
+}
+div#novinky{
+    padding:50px;
+    text-align: center;
+    background-color:lightsalmon;
+}
+div#novinkyWrapper{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+article.clanekMiniatura{
+    border: 2px solid black;
+    max-width: 200px;
+    padding: 20px;
+    padding-top: 0;
+    background-color: white;
+}
+
+article.clanekMiniatura>img{
+    max-width: 200px;
+    border: 1px dashed black;  
+}
+
+article.clanekMiniatura>p.CenaPr{
+    color:darkred;
+}
+article.clanekMiniatura>p.CenaZdarma{
+    color:green;
+}
+
+article.clanekMiniatura:hover{
+    background-color: lightblue;
+}
+
+a.clanekOdkaz{
+    text-decoration: none;
+}
+a.clanekOdkaz:visited{
+    color: initial;
+}
+
+div#upcomingWrapper{
+    padding:50px;
+    text-align: center;
+    background-color:lightsalmon;
+}
+
+ul#upcoming{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:50px;
+}
+
+ul#upcoming>li{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    max-width: 250px;
+    gap: 50px;
+}
+section#about{
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0;
+    align-self: center;
+   
+}
+section#about h1.hlavniNadpis{
+    padding-top: 0;
+}
+
